@@ -1,4 +1,5 @@
 class Student
+  
 
   # Remember, you can access your database connection anywhere in this class
   #  with DB[:conn]  
@@ -48,5 +49,7 @@ class Student
     sql = "SELECT * FROM students" 
     DB[:conn].execute(sql)
   end
+
+  
 
 end
